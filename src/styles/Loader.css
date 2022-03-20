@@ -1,0 +1,24 @@
+.wrap {
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.loader {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px black dashed;
+    position: absolute;
+    animation-name: loader;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes loader {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+  }

@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+label {
+  font-size: 18px;
+}
+
+select {
+  font-size: 16px;
+}
+
+li {
+    margin-top: 20px;
+    font-size: 18px;
+    list-style: none;
+    animation-duration: 0.5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: -5%;
+    }
+  
+    to {
+      margin-left: 0%;
+    }
+  }
+
+.pagination {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* .pagination ul li{
+  display: flex;
+} */
